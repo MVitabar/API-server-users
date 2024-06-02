@@ -60,7 +60,7 @@ app.delete("/users/:id", async (req, res) => {
   res.status(200).json({ message: "USER DELETED" });
 });
 
-app.listen(3000);
+app.listen("https://api-server-users.onrender.com");
 
 /*
 vitabarmartin
